@@ -1,19 +1,24 @@
 # 🧠 HealthKart Influencer Campaign Dashboard
 
-This project is a Streamlit-based dashboard to analyze influencer-driven marketing campaigns for HealthKart. It simulates data, calculates ROAS, and offers insights through interactive visualizations.
+This is a **Streamlit-based interactive dashboard** simulating and analyzing influencer-driven marketing campaigns for **HealthKart**. It uses generated data to calculate Return on Ad Spend (ROAS), visualize influencer performance, and provide actionable insights.
+
+🔗 **Live App:** [https://healthkartprojectbyatulsinghnirmal.streamlit.app/](https://healthkartprojectbyatulsinghnirmal.streamlit.app/)
 
 ---
 
-## 📂 Files in This Repository
+## 📁 Repository Structure
 
-| File Name            | Description                                  |
-|----------------------|----------------------------------------------|
-| `generate_data.py`   | Generates 4 CSV datasets with fake campaign data using Faker. |
-| `app.py`             | The Streamlit dashboard interface.           |
-| `*.csv`              | Simulated data files (influencers, posts, tracking, payouts). |
-| `requirements.txt`   | Python packages needed to run the app.       |
-| `Insights_Summary.pdf` | Final analysis with recommendations and charts. |
-| `.gitignore`         | Avoids pushing virtual env and temp files.   |
+| File Name             | Description                                                                 |
+|-----------------------|-----------------------------------------------------------------------------|
+| `app.py`              | Main Streamlit app for the dashboard UI and logic                          |
+| `generate_data.py`    | Script that generates the four datasets using the Faker library             |
+| `influencers.csv`     | Simulated data of influencers                                               |
+| `posts.csv`           | Simulated social media post data                                            |
+| `tracking_data.csv`   | Simulated tracking data for revenue and user actions                        |
+| `payouts.csv`         | Simulated payout calculations per influencer                                |
+| `README.md`           | This file — project overview and usage instructions                         |
+| `.gitattributes`      | Git configuration for text file formatting                                  |
+| `venv/`               | (excluded) Your virtual environment folder *(not pushed to GitHub)*         |
 
 ---
 
@@ -22,5 +27,6 @@ This project is a Streamlit-based dashboard to analyze influencer-driven marketi
 ### 🔧 Step 1: Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/HealthKart_Project.git
+git clone https://github.com/atulsinghnirmal/HealthKart_Project.git
 cd HealthKart_Project
+
